@@ -1,0 +1,10 @@
+que son lo componentes en react js
+
+son bloques de construccion de la interfaz de usuario
+encapsula la logica y estrutura visual de una partecita de todo lo que ve el usuario
+
+variables jsx
+
+props
+son un mecanismo para pasar informacion de componente padrea  a un componente hijo objectos que tiene valores
+que nos permite la comunicacion entre componentes
