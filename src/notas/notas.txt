@@ -8,3 +8,19 @@ variables jsx
 props
 son un mecanismo para pasar informacion de componente padrea  a un componente hijo objectos que tiene valores
 que nos permite la comunicacion entre componentes
+
+useState
+manejo de estado
+hook es una funcion especial que nos permite utilizar una funcion de react en un componente de tipo de funcion
+fueron introducidos en 16.8 para poder manejar el estado y otra caracteristicas de react sin la necesidad de utilizar los componente de tipo clase
+
+existen dos tipos los hook de react y el de que podemos crear nosotros customreact
+
+son una forma de hacer una fucnion facil,legible y reutilizable
+
+el estado en react es un objecto que contiene datos y representa la informacionque una interfaz de usuario necesitda para poder rendedirzar y funcionar 
+correactamente
+
+el estado es mutable tiene todos los datos que necesita un componente para funcionar de forma corecta y mutuar si es lo que necesita
+
+atravez de hook en caso de react

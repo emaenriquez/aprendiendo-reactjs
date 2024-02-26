@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Componente } from './Componente.jsx'
+import {Contador} from './Contador.jsx'
 import './style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Componente />
+    {/* <Componente /> */}
+    <Contador value={0}></Contador>
   </React.StrictMode>,
 )
