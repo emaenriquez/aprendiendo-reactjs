@@ -18,8 +18,7 @@ existen dos tipos los hook de react y el de que podemos crear nosotros customrea
 
 son una forma de hacer una fucnion facil,legible y reutilizable
 
-el estado en react es un objecto que contiene datos y representa la informacionque una interfaz de usuario necesitda para poder rendedirzar y funcionar 
-correactamente
+el estado en react es un objecto que contiene datos y representa la informacion que una interfaz de usuario necesitda para poder renderizar y funcionar  correactamente
 
 el estado es mutable tiene todos los datos que necesita un componente para funcionar de forma corecta y mutuar si es lo que necesita
 

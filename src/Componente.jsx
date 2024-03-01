@@ -9,7 +9,12 @@ import './Componente.css'
 // const skill = ['java', 'astro', 'tailwid',]
 // const funci = () => 1 + 1
 
+
+
 export const Componente = ({titulo,subTitulo}) => {
+
+
+
     return (
         <>
             <h1>{titulo}</h1>

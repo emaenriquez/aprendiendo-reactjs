@@ -1,4 +1,8 @@
 
+
+// uso del primer hook useState
+import { useState } from "react"
+
 const Button = () => {
     return (
         <button>Click para aumentar el Contador</button>
@@ -12,17 +16,23 @@ const Button = () => {
 
 export const Contador =({value})=>{
 
-    function contador() {
-        value += 1
-        console.log(value)
+    const [contador,setContador] = useState (value)
+
+    function hadleClick() {
+        setContador(contador + 1)
+    }
+
+    function descontar(){
+        setContador(contador - 1 )
     }
 
     return (
     <>
         <div>Contador App</div>
-        <p>{value}</p>
+        <p>{contador}</p>
         {/* <Button></Button> */}
-        <button onClick={contador}>Click para aumentar el Contador</button>
+        <button onClick={hadleClick}>Click para aumentar el Contador</button>
+        <button onClick={descontar}> click para descontar el Contador</button>
     </>
     )
 }
