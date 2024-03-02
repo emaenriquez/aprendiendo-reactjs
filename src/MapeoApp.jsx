@@ -1,6 +1,7 @@
 // condicionales y ternarios
 
 import { useState } from "react"
+import { AgregarTarea } from "./components/AgregarTarea"
 
 const Items = ({ nombre, vistos }) => {
     return (
@@ -37,7 +38,9 @@ export const MapeoApp = () => {
             <ol>
                 {arreglo.map(item => <Items key={item.nombre} nombre={item.nombre} vistos={item.vistos}></Items>)}
             </ol>
-            <button onClick={() => addTask()}>Agregar tarea</button>
+
+            <AgregarTarea agregarTarea={setArreglo}></AgregarTarea>
+            {/* <button onClick={() => addTask()}>Agregar tarea</button> */}
         </>
     )
 }
