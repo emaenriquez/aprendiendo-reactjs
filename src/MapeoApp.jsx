@@ -20,7 +20,7 @@ const Items = ({ nombre, vistos }) => {
 export const MapeoApp = () => {
 
     const addTask = () =>{
-        setArreglo([...arreglo,{nombre:'C#',vistos:false}])
+        setArreglo([...arreglo,{nombre:'C#',vistos:false}]);
     }
 
     let listadoAprendizaje = [
@@ -29,7 +29,7 @@ export const MapeoApp = () => {
         {id: 3,nombre:"Go", vistos:false},
         {id: 4,nombre:"C", vistos:true},
     ]
-    const [arreglo, setArreglo] = useState(listadoAprendizaje)
+    const [arreglo, setArreglo] = useState(listadoAprendizaje);
 
     // console.log(arreglo)
 

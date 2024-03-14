@@ -4,6 +4,7 @@ import { Componente } from './Componente.jsx'
 import {Contador} from './Contador.jsx'
 import {ListadoApp} from './ListadoApp.jsx'
 import {MapeoApp} from './MapeoApp.jsx'
+import { UserApp } from './UserApp.jsx'
 import './style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Componente /> */}
     {/* <Contador value={0}></Contador> */}
     {/* <ListadoApp /> */}
-    <MapeoApp></MapeoApp>
+    {/* <MapeoApp></MapeoApp> */}
+
+    <UserApp></UserApp>
   </React.StrictMode>,
 )
